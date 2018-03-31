@@ -5,18 +5,22 @@ package edu.handong.csee.java.lab06;
 //import scanner to scan  keyboard input
 import java.util.Scanner;
 
-
+/**
+ * get the volume of house store cockroach from user input 
+ * get the value of cockroach
+ * increase the value of cockroach 
+ * @author SovanEco(Chhaya)
+ *
+ */
+// create class lab06 as public
 
 public class Lab06 {
+	
 
 	final double GROWTH_RATE =0.95;
 	final double ONE_BUG_VOLUME = 0.002;
-	/**
-	 * this class to store the vale of GROWTH_RATE and GROWTH_RATE
-	 * class variable as final Double type
-	 * 
-	 * @param args
-	 */
+
+	
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
@@ -26,20 +30,20 @@ public class Lab06 {
 		myCokroch.compteNumOfBugKill();// constructor method
 
 	}
-
-
-
+	
+	/**
+	 * constructs and initializes  Lab06 on compteNumOfBugkill 
+	 * 
+	 * @param args compteNumOfBugKill calculate the value of cockroach and the volume house
+	 */
 
 	public void compteNumOfBugKill() {
-		/**
-		 * compteNumOfBugkill is the method as void type 
-		 *  to get the value user input 
-		 *  making loop statement 
-		 *  calculate and print out the result
-		 *  
-		 */
+		
+		
 		Scanner keyboard = new Scanner(System.in);
 		//	Scanner keyboard = new Scanner (System.in);
+
+
 
 		System.out.println("Enter the total volumn of your house");// print out Enter the total volumn of your house
 		System.out.print("in cubic feet : ");// print out  in cubic feet
@@ -59,6 +63,8 @@ public class Lab06 {
 		double totalBugvolumn = population  * ONE_BUG_VOLUME;//  totalBugvolumn calculating
 		// method variable as integer
 		int countWeek = 0;
+		
+		
 
 		// while loop statement
 		while (totalBugvolumn < houseVolumn) {
@@ -71,7 +77,8 @@ public class Lab06 {
 			totalBugvolumn = population  * ONE_BUG_VOLUME;
 			countWeek = countWeek + 1;
 
-		}	    
+		}	
+		
 		//print out Staring with a roach population of
 		System.out.println("Staring with a roach population of  " + startPopulation );
 
@@ -93,4 +100,7 @@ public class Lab06 {
 
 
 	}
+	
+
+
 }
