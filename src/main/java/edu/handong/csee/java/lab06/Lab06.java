@@ -15,12 +15,17 @@ import java.util.Scanner;
 // create class lab06 as public
 
 public class Lab06 {
-	
+
 
 	final double GROWTH_RATE =0.95;
 	final double ONE_BUG_VOLUME = 0.002;
 
-	
+	/**
+	 * this class to store the vale of GROWTH_RATE and GROWTH_RATE
+	 * class variable as final Double type
+	 * 
+	 * @param args
+	 */
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
@@ -30,11 +35,16 @@ public class Lab06 {
 		myCokroch.compteNumOfBugKill();// constructor method
 
 	}
-	
-	
+
+
+	/**
+	 * constructs and initializes  Lab06 on compteNumOfBugkill 
+	 * 
+	 * @param args compteNumOfBugKill calculate the value of cockroach and the volume house
+	 */
 	public void compteNumOfBugKill() {
-		
-		
+
+
 		Scanner keyboard = new Scanner(System.in);
 		//	Scanner keyboard = new Scanner (System.in);
 
@@ -57,8 +67,8 @@ public class Lab06 {
 		double totalBugvolumn = population  * ONE_BUG_VOLUME;//  totalBugvolumn calculating
 		// method variable as integer
 		int countWeek = 0;
-		
-		
+
+
 
 		// while loop statement
 		while (totalBugvolumn < houseVolumn) {
@@ -72,7 +82,7 @@ public class Lab06 {
 			countWeek = countWeek + 1;
 
 		}	
-		
+
 		//print out Staring with a roach population of
 		System.out.println("Staring with a roach population of  " + startPopulation );
 
@@ -94,7 +104,7 @@ public class Lab06 {
 
 
 	}
-	
+
 
 
 }
