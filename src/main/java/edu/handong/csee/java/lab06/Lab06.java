@@ -31,18 +31,12 @@ public class Lab06 {
 
 	}
 	
-	/**
-	 * constructs and initializes  Lab06 on compteNumOfBugkill 
-	 * 
-	 * @param args compteNumOfBugKill calculate the value of cockroach and the volume house
-	 */
-
+	
 	public void compteNumOfBugKill() {
 		
 		
 		Scanner keyboard = new Scanner(System.in);
 		//	Scanner keyboard = new Scanner (System.in);
-
 
 
 		System.out.println("Enter the total volumn of your house");// print out Enter the total volumn of your house
