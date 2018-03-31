@@ -40,7 +40,6 @@ public class Lab06 {
 	/**
 	 * constructs and initializes  Lab06 on compteNumOfBugkill 
 	 * 
-	 * @param args compteNumOfBugKill calculate the value of cockroach and the volume house
 	 */
 	public void compteNumOfBugKill() {
 
